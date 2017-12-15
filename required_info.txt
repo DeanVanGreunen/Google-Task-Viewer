@@ -1,0 +1,23 @@
+Google Auth (you can get your own ones at https://console.developers.google.com/):
+	API_KEY: AIzaSyBTY7FeGrSjWwZL-9T9jnQFFXsmS-6Laww
+	CLIENT_ID: 760269550496-2210qshbihp9nqokrn8bh69cu6ofk22b.apps.googleusercontent.com
+	CLIENT_SECRET: 5-nnQcqtZ1aVF2jEowHvFKou
+
+Google APIs being Used:
+	People API
+	Task API
+
+External Libraries Required:	
+	JS:
+		https://code.jquery.com/ui/1.12.1/jquery-ui.js
+		https://apis.google.com/js/api.js
+		https://code.jquery.com/ui/1.12.1/jquery-ui.min.js
+	CSS:
+		https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css
+
+VHost Settings:
+	Host:
+		dmi.com
+	hosts:
+		127.0.0.1	mhi.com
+		::1	mhi.com
