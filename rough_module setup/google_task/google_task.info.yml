@@ -1,0 +1,7 @@
+name: Google Task Module
+description: A module used to intergrate with the Google Task API by Dean Van Greunen
+package: Google
+type: module
+core: 8.x
+dependencies:
+  - block

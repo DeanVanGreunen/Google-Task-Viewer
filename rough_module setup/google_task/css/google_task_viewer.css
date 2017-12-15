@@ -1,0 +1,461 @@
+/* Model Box*/
+div#google_task_viewer{
+  display: block;
+    background-color: #d4d4d4;
+    width: 320px;
+    height: 480px;
+}
+
+/* Google Login Panel*/
+div#google_authenticate {
+  display:block;
+  width:100%;
+  height: 100%;
+  z-index: 0;
+  clear: both;
+  background-color: #d6d6d6;
+  border:1px #000000 dotted;
+}
+
+div#google_authenticate_login_before {
+  text-align: center;
+  padding: 8px;
+  background-color: #e4e4e4;
+}
+
+div#google_authenticate_login {
+  text-align: center;
+  padding-top: 166px;
+  font-size: large;
+  clear: both;
+  text-align: center;
+  padding: 0 auto;
+}
+
+div#google_authenticate_login_after {
+  text-align: right;
+  padding: 8px;
+  font-size: 8pt;
+  margin-top: 205px;
+  background-color: #bdbdbd;
+  color: #FFFFFF;
+}
+div#google_authenticate_login_after span a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-style: italic;
+}
+
+button#google_authenticate_login_btn {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+img#google_authenticate_login_btn_img {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+button#google_authenticate_login_btn:hover img{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+/* Task View Panel */
+div#google_task_view_panel {
+  display:none;
+    width:100%;
+    height: 100%;
+  clear: both;
+}
+
+/* Task View Panel Header*/
+div#google_task_view_panel_header {
+  clear: both;
+}
+
+/* Left Side of Panel Header*/
+div#google_task_view_panel_header_title {
+    background-color: #dcdcdc;
+    width: 224px;
+    height: 48px;
+    float:left
+}
+
+div#google_task_view_panel_header_title span {
+    vertical-align: middle;
+    line-height: 48px;
+    padding-left: 8px;
+}
+
+
+/* Right Side of Panel Header */
+// Logout button
+div#google_task_view_panel_header_btns {
+  float: left;
+  width: 96px;
+  height: 48px;
+}
+
+button#google_task_view_panel_header_logout_btn, button#google_task_view_panel_header_logout_btn img {
+    border: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 48px;
+    height: 48px;
+}
+
+
+button#google_task_view_panel_header_new_task_btn, button#google_task_view_panel_header_new_task_btn img {
+    border: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 48px;
+    height: 48px;
+}
+
+/* End Task View Panel Header*/
+
+div#google_task_view_panel_list_panel {
+  clear: both;
+  overflow-y:scroll;
+  height:432px;
+}
+
+/*div#google_task_view_list_panel {
+  padding-top: 48px;
+  clear: both;
+  overflow-y:scroll;
+  height:100%;
+}*/
+
+div.google_task_view_panel_list_panel_item {
+  clear:both;
+  padding-top: 4px;
+  border-top: 1px #bbbbbb solid;
+}
+
+div.google_task_view_panel_list_panel_item_title {
+    width: 174px;
+    height: 48px;
+    float:left; 
+    line-height:48px;
+}
+
+div.google_task_view_panel_list_panel_item_title a{
+    width: 174px;
+    height: 48px;
+    float:left; 
+    line-height:48px;
+    padding-left: 8px;
+}
+
+div.google_task_view_panel_list_panel_item_btn_list {
+  height:48px;
+  float: right;
+  padding-top:8px;
+  padding-left:8px;
+  padding-right: 4px;
+}
+
+button.google_task_view_panel_list_panel_item_btn_list_btn, button.google_task_view_panel_list_panel_item_btn_list_btn
+img {
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 32px;
+    height: 32px;
+}
+
+button.google_task_view_panel_list_panel_item_btn_list_btn {
+    background-color: transparent;
+    margin-right: 4px;
+}
+
+/* Fancy Effects */
+.btn-5 {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+.btn-5:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Model Box - New Task */
+div.google_model_box_new_task_panel {
+    height: 100%;
+    width: 100%;
+}
+
+div.google_model_box_new_task_panel_header {
+    height: 48px;
+    line-height: 48px;
+    background-color: #dcdcdc;
+}
+
+div.google_model_box_new_task_panel_header span {
+  padding-left: 8px;
+}
+
+button#google_model_box_new_task_panel_close_dialog {
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+    border: none;
+}
+
+button#google_model_box_new_task_panel_close_dialog img{
+  width: 34px;
+  height: 34px;
+}
+
+div.google_model_box_new_task_panel_label {
+    padding: 12px 8px;
+    clear: both;
+}
+
+input#google_model_box_new_task_panel_task_title {
+    padding: 4px 12px;
+    margin-left: 8px;
+    width: 230px;
+}
+
+textarea#google_model_box_new_task_panel_task_description {
+    margin-top: 8px;
+    width: 300px;
+    padding: 4px 12px;
+}
+
+input#google_model_box_new_task_panel_task_due_date {
+    padding: 4px 12px;
+    margin-left: 8px;
+    width: 230px;
+}
+
+input#google_model_box_new_task_panel_task_save_btn {
+    text-align: right;
+    float: right;
+    margin-right: 8px;
+    padding: 12px 32px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+input#google_model_box_new_task_panel_task_save_btn:hover {
+    background-color: #50ff50; 
+    color: #FFFFFF; 
+}
+
+/* Model Box - Edit Task */
+
+div.google_model_box_edit_task_panel {
+    height: 100%;
+    width: 100%;
+}
+
+div.google_model_box_edit_task_panel_header {
+    height: 48px;
+    line-height: 48px;
+    background-color: #dcdcdc;
+}
+
+div.google_model_box_edit_task_panel_header span {
+  padding-left: 8px;
+}
+
+button#google_model_box_edit_task_panel_close_dialog {
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+    border: none;
+}
+
+button#google_model_box_edit_task_panel_close_dialog img{
+  width: 34px;
+  height: 34px;
+}
+
+div.google_model_box_edit_task_panel_label {
+    padding: 12px 8px;
+    clear: both;
+}
+
+input#google_model_box_edit_task_panel_task_title {
+    padding: 4px 12px;
+    margin-left: 8px;
+    width: 230px;
+}
+
+textarea#google_model_box_edit_task_panel_task_description {
+    margin-top: 8px;
+    width: 300px;
+    padding: 4px 12px;
+}
+
+input#google_model_box_edit_task_panel_task_due_date {
+    padding: 4px 12px;
+    margin-left: 8px;
+    width: 230px;
+}
+
+input#google_model_box_edit_task_panel_task_update_btn {
+    text-align: right;
+    float: right;
+    margin-right: 8px;
+    padding: 12px 32px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+input#google_model_box_edit_task_panel_task_update_btn:hover {
+    background-color: #50ff50; 
+    color: #FFFFFF; 
+}
+
+/* Model Box - View Task */
+
+div.google_model_box_view_task_panel {
+    height: 100%;
+    width: 100%;
+}
+
+div.google_model_box_view_task_panel_header {
+    height: 48px;
+    line-height: 48px;
+    background-color: #dcdcdc;
+}
+
+div.google_model_box_view_task_panel_header span {
+  padding-left: 8px;
+}
+
+button#google_model_box_view_task_panel_close_dialog {
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+    border: none;
+}
+
+button#google_model_box_view_task_panel_close_dialog img{
+  width: 34px;
+  height: 34px;
+}
+
+div.google_model_box_view_task_panel_label {
+    padding: 12px 8px;
+    clear: both;
+}
+
+input#google_model_box_view_task_panel_task_title {
+    padding: 4px 12px;
+    margin-left: 8px;
+    width: 230px;
+}
+
+textarea#google_model_box_view_task_panel_task_description {
+    margin-top: 8px;
+    width: 300px;
+    padding: 4px 12px;
+}
+
+input#google_model_box_view_task_panel_task_due_date {
+    padding: 4px 12px;
+    margin-left: 8px;
+    width: 230px;
+}
+
+input#google_model_box_view_task_panel_task_ok_btn {
+    text-align: right;
+    float: right;
+    margin-right: 8px;
+    padding: 12px 32px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+input#google_model_box_view_task_panel_task_ok_btn:hover {
+    background-color: #50ff50; 
+    color: #FFFFFF; 
+}
+
+/* Model Box - Delete Task */
+
+div.google_model_box_delete_task_panel {
+    height: 100%;
+    width: 100%;
+}
+
+div.google_model_box_delete_task_panel_header {
+    height: 48px;
+    line-height: 48px;
+    background-color: #dcdcdc;
+    padding-left: 8px;
+}
+
+div.google_model_box_delete_task_panel_label {
+    padding: 12px 8px;
+    clear: both;
+}
+
+div.google_model_box_delete_task_panel_label span {
+    clear: both;
+    padding: 12px 8px;
+}
+
+div#google_model_box_delete_task_panel_task_btns {
+    padding: 12px 8px;
+    clear: both;
+}
+
+button#google_model_box_delete_task_panel_task_btn_no {
+    text-align: right;
+    float: right;
+    margin-right: 8px;
+    padding: 12px 32px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+button#google_model_box_delete_task_panel_task_btn_no:hover {
+    background-color: #50ff50; 
+    color: #FFFFFF; 
+}
+
+button#google_model_box_delete_task_panel_task_btn_yes {
+    text-align: right;
+    float: right;
+    margin-right: 8px;
+    padding: 12px 32px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+button#google_model_box_delete_task_panel_task_btn_yes:hover {
+    background-color: #FF5050; 
+    color: #FFFFFF; 
+}
